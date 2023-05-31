@@ -6,8 +6,9 @@ Class [Link](https://www.edx.org/course/unlocking-information-security-i-from-cr
 
 ## Vulnerabilities and Exploits
 
-Vault 7 from [wikileaks](https://en.wikipedia.org/wiki/Vault_7)   
-Speculative execution - [Vox](https://www.youtube.com/watch?v=d1BRw32nMqg)   
+Vault 7 - [wikileaks](https://en.wikipedia.org/wiki/Vault_7)   
+`Speculative execution` - an optimization technique where a computer system performs some task that may not be needed. Work is done before it is known whether it is actually needed, so as to prevent a delay that would have to be incurred by doing the work after it is known that it is needed. If it turns out the work was not needed after all, most changes made by the work are reverted and the results are ignored. [Vox](https://www.youtube.com/watch?v=d1BRw32nMqg)    
+Vulnerability in the cache.  
 
 [Time-of-check to time-of-use](https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use)   
 
@@ -15,6 +16,8 @@ Speculative execution - [Vox](https://www.youtube.com/watch?v=d1BRw32nMqg)
 
 ## Cryptography
 
+Stream cipher   
+Block cipher   
 ---
 
 ## Hash Functions
