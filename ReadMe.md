@@ -34,7 +34,7 @@ Block cipher
 
 ## Hash Functions
 
-`hash function` - A hash function is a function that takes an input (a large amount of data) and produces a fixed-size output (hash or digest) that represents the input in a way that is useful for a variety of purposes, such as verifying the integrity of the data or detecting duplicates.      
+`hash function` - function that takes an input (a large amount of data) and produces a fixed-size output (hash or digest) that represents the input in a way that is useful for a variety of purposes, such as verifying the integrity of the data or detecting duplicates.      
 
 f(x) =(x \* 127) mod 13
 
@@ -43,12 +43,14 @@ f(x) =(x \* 127) mod 13
 ## Authentication
 `Two-factor authentication` (2FA) a security process in which a user provides two different authentication factors to verify their identity; factors can be something the user knows (such as a password or PIN), something the user has (such as a security token or mobile device), or something the user is (such as a biometric identifier like a fingerprint or facial recognition).   
 
-Authentication schemes 
-A: something you know: passwords
-B: something you are: biometrics 
-C: something you have: phone
+Authentication schemes    
+ - A: something you know: passwords
+ - B: something you are: biometrics 
+ - C: something you have: phone
 
 
 ---
 
 ## Buffer Overflows
+
+---   
