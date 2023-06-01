@@ -1,6 +1,14 @@
 ## Information Security I: From Cryptography to Buffer Overflows
+Check out https://haveibeenpwned.com/ and test your own email address to see if any of your accounts have been compromised.   
 
-Class [Link](https://www.edx.org/course/unlocking-information-security-i-from-cryptography-to-buffer-overflows)
+Class [Link](https://www.edx.org/course/unlocking-information-security-i-from-cryptography-to-buffer-overflows)    
+Pros:
+ - excellent content/high-mid level overview
+ - good problem sets or 'hackxercises"
+
+Cons
+ - videos aren't very detailed (found more info searching on my own)
+ - not on youtube (can't download/have to watch on the site)
 
 ---
 
@@ -43,11 +51,16 @@ f(x) =(x \* 127) mod 13
 ## Authentication
 `Two-factor authentication` (2FA) a security process in which a user provides two different authentication factors to verify their identity; factors can be something the user knows (such as a password or PIN), something the user has (such as a security token or mobile device), or something the user is (such as a biometric identifier like a fingerprint or facial recognition).   
 
+`replay attacks`.  
+
 Authentication schemes    
  - A: something you know: passwords
  - B: something you are: biometrics 
  - C: something you have: phone
 
+According to David Mitnik's [Art of Invisibility](https://www.goodreads.com/book/show/30363785-the-art-of-invisibility) create non sequitur passwords:   
+- MyFavoriteNumisOrange
+- MyDogsNameIs24
 
 ---
 
