@@ -5,8 +5,8 @@ Class [Link](https://www.edx.org/course/unlocking-information-security-i-from-cr
 ---
 
 ## Vulnerabilities and Exploits
-`vulnerability` a flaw in a system's design, implementation or operation, that can be exploited to violate the system's security policy. 
- `exploit` leverages a vulnerability to violate a system's security policy, usually with malicious intent. One of the most popular exploits is denial of service.  
+`vulnerability` a flaw in a system's design, implementation or operation, that can be exploited to violate the system's security policy.    
+ `exploit` leverages a vulnerability to violate a system's security policy, usually with malicious intent. One of the most popular exploits is denial of service.    
 `remote code execution` - an attacker gets to execute software, code, of her own, on the victim's machine.  
 
 Design.  
