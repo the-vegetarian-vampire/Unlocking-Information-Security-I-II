@@ -1,7 +1,11 @@
 ## Information Security I: From Cryptography to Buffer Overflows
-Check out https://haveibeenpwned.com/ and test your own email address to see if any of your accounts have been compromised.   
+The objective of taking this course was to learn more cryptographic primitives and hash functions regarding security. Not wanting a full Cryptography course, I wanted a lower lever introduction to security and various exploits.    
 
-Class [Link](https://www.edx.org/course/unlocking-information-security-i-from-cryptography-to-buffer-overflows)    
+Check out https://haveibeenpwned.com/ and test your own email address to see if your accounts have been compromised.     
+
+Class [Link](https://www.edx.org/course/unlocking-information-security-i-from-cryptography-to-buffer-overflows)   
+$125 (with discount) for access to exercises/quizzes/test.   
+
 Pros:
  - excellent content/high-mid level overview
  - problem sets/"hackxercises"   
@@ -13,14 +17,18 @@ Cons
 ---
 
 ## Vulnerabilities and Exploits
-`vulnerability` a flaw in a system's design, implementation or operation, that can be exploited to violate the system's security policy.    
- `exploit` leverages a vulnerability to violate a system's security policy, usually with malicious intent. One of the most popular exploits is denial of service.    
+`vulnerability` - a flaw in a system's design, implementation or operation, that can be exploited to violate the system's security policy.    
+ `exploit` - leverages a vulnerability to violate a system's security policy, usually with malicious intent. One of the most popular exploits is denial of service.     
 `remote code execution` - an attacker gets to execute software, code, of her own, on the victim's machine.  
 
-Design.  
-Implimentation.  
-Operation.  
-Integration.  
+`Design vuln.` - flaw in the way a system is designed; most commonly, an unconsidered usage (logical vulnerability).   
+`Implimentation vuln` - flaw in the way a system system is implemented; a programming mistake (technical vulnerability).   
+`Operation vuln.` -  flaw in the way the users interact with the system (social engineering) the psychological manipulation of people   
+`Integration vuln.` - components are insecurely combined.    
+
+`privilege Escalation` - elevating permission from a regular user to an “admin” or “root”.   
+
+`side-channel attack` - attack based on byproducts of the system, ie time it takes the system to run or the sounds emitted by the CPU.   
 
 Vault 7 - [wikileaks](https://en.wikipedia.org/wiki/Vault_7)    
 
@@ -72,3 +80,21 @@ According to David Mitnik's [Art of Invisibility](https://www.goodreads.com/book
 ## Buffer Overflows
 
 ---   
+## ETC
+From Snowden’s book [Permanent Record](https://www.amazon.com/Permanent-Record-Edward-Snowden/dp/1250237238)   
+- The 5 eyes: U.S., UK, Australia, Canada, New Zealand  
+- 6 Protocols: 
+  - sniff it-all (find data source)
+  - know it all (find out what data was)
+  - collect it all (capturing data) 
+  - process it all (analyze data for usable intel)
+  - exploit it all (using intel to further agency aim)
+  - partner it all (share with Allies)
+
+
+`Prism collection` - from servers of service providers   
+`Upstream collection` - direct collection from internet infrastructure    
+
+`Turbulence` - request goes through servers; turmoil - guard - passive collections, copies data coming through (if flagged as suspicious goes to turbine)    
+`Turbine` - active collection, tampering (programs of quantum suite)    
+
