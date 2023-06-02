@@ -98,4 +98,4 @@ From Snowden’s book [Permanent Record](https://www.amazon.com/Permanent-Record
 `Turbulence` - request goes through servers; turmoil - guard - passive collections, copies data coming through (if flagged as suspicious goes to turbine)    
 `Turbine` - active collection, tampering (programs of quantum suite)    
 
-Nicole Perlroth NYT - [Twitter](https://twitter.com/NicolePerlroth](https://twitter.com/NicolePerlroth).  
+Nicole Perlroth NYT - [Twitter](https://twitter.com/NicolePerlroth).  
