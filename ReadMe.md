@@ -58,7 +58,9 @@ Kerckhoff’s principle:
 
 ## Hash Functions
 
-`hash function` - function that takes an input (a large amount of data) and produces a fixed-size output (hash or digest) that represents the input in a way that is useful for a variety of purposes, such as verifying the integrity of the data or detecting duplicates.      
+`hash function` - function that takes an input (a large amount of data) and produces a fixed-size output (hash or digest) that represents the input in a way that is useful for a variety of purposes, such as verifying the integrity of the data or detecting duplicates.   
+
+`salt` -    
 
 f(x) =(x \* 127) mod 13
 
@@ -92,6 +94,10 @@ According to David Mitnik's [Art of Invisibility](https://www.goodreads.com/book
 
 `stack overflow` - buffer overflow overwriting a function's return address.
 
+`canary` -   
+`data execution prevention` - DEP.  
+
+`W^X princicple` - memory should be writeable or executable, never both.  
 ---   
 ## ETC
 From Snowden’s book [Permanent Record](https://www.amazon.com/Permanent-Record-Edward-Snowden/dp/1250237238)   
