@@ -41,10 +41,10 @@ Vulnerability in the cache.
 
 ## Cryptography
 
-`plaintext` -
-`ciphertext` - Encrypted plaintext.
-`initialization vector`
- Pseudo-Random Generator (PRG)
+`plaintext` -   
+`ciphertext` - Encrypted plaintext.   
+`initialization vector`.  
+ Pseudo-Random Generator (PRG)   
 
 Symmetric Cipher - use same cryptographic keys for encryption of plaintext and decryption of ciphertext.  
 XOR Cipher - boolean operator on two variables that has the value of one if one but not both of the variables has a value of one.
