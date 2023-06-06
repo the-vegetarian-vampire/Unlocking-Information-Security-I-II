@@ -46,12 +46,12 @@ Vulnerability in the cache.
 `initialization vector`.  
  Pseudo-Random Generator (PRG)   
 
-Symmetric Cipher - use same cryptographic keys for encryption of plaintext and decryption of ciphertext.  
-XOR Cipher - boolean operator on two variables that has the value of one if one but not both of the variables has a value of one.
-Stream cipher - a cryptographic key and algorithm are applied to each binary digit in a data stream, one bit at a time.    
+Symmetric Cipher - use same cryptographic keys for encryption of plaintext and decryption of ciphertext.   
+XOR Cipher - boolean operator on two variables that has the value of one if one but not both of the variables has a value of one.   
+Stream cipher - a cryptographic key and algorithm are applied to each binary digit in a data stream, one bit at a time.       
 Block cipher  - a cryptographic key and algorithm are applied to a block of data as a group rather tha one bit at a time.  
 
-Kerckhoff’s principle:
+Kerckhoff’s principle:   
 `One Time Pad` encryption technique that cannot be cracked but requires the use of a one-time pre-shared key the same size or longer than the message sent.
 
 ---
