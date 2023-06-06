@@ -27,13 +27,15 @@ Cons
 
 `privilege Escalation` - elevating permission from a regular user to an “admin” or “root”.   
 
-`side-channel attack` - attack based on byproducts of the system, ie time it takes the system to run or the sounds emitted by the CPU.   
+`side-channel attack` - attack based on byproducts of the system, ie time it takes the system to run or the sounds emitted by the CPU.  
+`zero day attack` - no one knows about the attack; minute is discovered engineers have zero days to fix it   
+`watering hole attack` - 
+`machine address code` (mac) - 
+`evil maid attack`      
 
 Vault 7 - [wikileaks](https://en.wikipedia.org/wiki/Vault_7)    
 
-`Speculative execution` - an optimization technique where a computer system performs some task that may not be needed. Work is done before it is known whether it is actually needed, so as to prevent a delay that would have to be incurred by doing the work after it is known that it is needed. If it turns out the work was not needed after all, most changes made by the work are reverted and the results are ignored. [Vox](https://www.youtube.com/watch?v=d1BRw32nMqg)    
-
-Vulnerability in the cache.  
+`Speculative execution` - an optimization technique where a computer system performs some task that may not be needed. Work is done before it is known whether it is actually needed, so as to prevent a delay that would have to be incurred by doing the work after it is known that it is needed. If it turns out the work was not needed after all, most changes made by the work are reverted and the results are ignored. [Vox](https://www.youtube.com/watch?v=d1BRw32nMqg); Vulnerability in the cache.     
 
 [Time-of-check to time-of-use](https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use)   
 
@@ -42,14 +44,14 @@ Vulnerability in the cache.
 ## Cryptography
 
 `plaintext` -   
-`ciphertext` - Encrypted plaintext.   
-`initialization vector`.  
- Pseudo-Random Generator (PRG)   
+`ciphertext` - encrypted plaintext.   
+`initialization vector` -     
+`Pseudo-Random Generator (PRG)` -     
 
-Symmetric Cipher - use same cryptographic keys for encryption of plaintext and decryption of ciphertext.   
-XOR Cipher - boolean operator on two variables that has the value of one if one but not both of the variables has a value of one.   
-Stream cipher - a cryptographic key and algorithm are applied to each binary digit in a data stream, one bit at a time.       
-Block cipher  - a cryptographic key and algorithm are applied to a block of data as a group rather tha one bit at a time.  
+`Symmetric Cipher` - use same cryptographic keys for encryption of plaintext and decryption of ciphertext.   
+`XOR Cipher` - boolean operator on two variables that has the value of one if one but not both of the variables has a value of one.   
+`Stream cipher` - a cryptographic key and algorithm are applied to each binary digit in a data stream, one bit at a time.       
+`Block cipher`  - a cryptographic key and algorithm are applied to a block of data as a group rather tha one bit at a time.  
 
 Kerckhoff’s principle:   
 `One Time Pad` encryption technique that cannot be cracked but requires the use of a one-time pre-shared key the same size or longer than the message sent.
@@ -73,9 +75,7 @@ f(x) =(x \* 127) mod 13
 `pseudo-random generator (PRG)` -    
 
 `insult rate` - 
-`fraud rate` - 
-
-`evil maid attack`   
+`fraud rate` -    
 
 [IMSI-catcher](https://en.wikipedia.org/wiki/IMSI-catcher) - a telephone eavesdropping device used for intercepting mobile phone traffic and tracking location data of mobile phone users   
 
@@ -119,6 +119,6 @@ From Snowden’s book [Permanent Record](https://www.amazon.com/Permanent-Record
 `Upstream collection` - direct collection from internet infrastructure    
 
 `Turbulence` - request goes through servers; turmoil - guard - passive collections, copies data coming through (if flagged as suspicious goes to turbine)    
-`Turbine` - active collection, tampering (programs of quantum suite)    
+`Turbine` - active collection, tampering (programs of quantum suite)   
 
 Nicole Perlroth NYT - [Twitter](https://twitter.com/NicolePerlroth).  
