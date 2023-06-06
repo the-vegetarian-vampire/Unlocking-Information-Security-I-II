@@ -95,9 +95,13 @@ According to David Mitnik's [Art of Invisibility](https://www.goodreads.com/book
 `stack overflow` - buffer overflow overwriting a function's return address.
 
 `canary` -   
-`data execution prevention` - DEP.  
+`data execution prevention` - DEP.  prevents code on the stack
 
-`W^X princicple` - memory should be writeable or executable, never both.  
+`W^X princicple` - memory should be writeable or executable, never both.    
+
+`ASLR`.  
+
+
 ---   
 ## ETC
 From Snowden’s book [Permanent Record](https://www.amazon.com/Permanent-Record-Edward-Snowden/dp/1250237238)   
