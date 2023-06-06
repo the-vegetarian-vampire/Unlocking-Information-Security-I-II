@@ -1,10 +1,9 @@
 ## Information Security I: From Cryptography to Buffer Overflows
 The objective of taking this course was to learn more cryptographic primitives and hash functions regarding security. Not wanting a full Cryptography course, I wanted a lower lever introduction to security and various exploits.    
 
-Check out https://haveibeenpwned.com/ and test your own email address to see if your accounts have been compromised.     
+Check out https://haveibeenpwned.com/ and test your email address to see if your accounts have been compromised.     
 
-Class [Link](https://www.edx.org/course/unlocking-information-security-i-from-cryptography-to-buffer-overflows)   
-$125 (with discount) for access to exercises/quizzes/test.   
+Class [Link](https://www.edx.org/course/unlocking-information-security-i-from-cryptography-to-buffer-overflows) $125 (with discount) for access to exercises/quizzes/test.      
 
 Pros:
  - excellent content/high-mid level overview
@@ -41,10 +40,19 @@ Vulnerability in the cache.
 ---
 
 ## Cryptography
-Symmetric Cipher.  
-XOR Cipher.  
-Stream cipher     
-Block cipher  
+
+`plaintext` -
+`ciphertext` - Encrypted plaintext.
+`initialization vector`
+ Pseudo-Random Generator (PRG)
+
+Symmetric Cipher - use same cryptographic keys for encryption of plaintext and decryption of ciphertext.  
+XOR Cipher - boolean operator on two variables that has the value of one if one but not both of the variables has a value of one.
+Stream cipher - a cryptographic key and algorithm are applied to each binary digit in a data stream, one bit at a time.    
+Block cipher  - a cryptographic key and algorithm are applied to a block of data as a group rather tha one bit at a time.  
+
+Kerckhoff’s principle:
+`One Time Pad` encryption technique that cannot be cracked but requires the use of a one-time pre-shared key the same size or longer than the message sent.
 
 ---
 
@@ -62,7 +70,10 @@ f(x) =(x \* 127) mod 13
 `replay attacks` pass-the-hash attacks.   
 `pseudo-random generator (PRG)` -    
 
-`evil maid attack`.  
+`insult rate` - 
+`fraud rate` - 
+
+`evil maid attack`   
 
 [IMSI-catcher](https://en.wikipedia.org/wiki/IMSI-catcher) - a telephone eavesdropping device used for intercepting mobile phone traffic and tracking location data of mobile phone users   
 
@@ -78,6 +89,8 @@ According to David Mitnik's [Art of Invisibility](https://www.goodreads.com/book
 ---
 
 ## Buffer Overflows
+
+`stack overflow` - buffer overflow overwriting a function's return address.
 
 ---   
 ## ETC
