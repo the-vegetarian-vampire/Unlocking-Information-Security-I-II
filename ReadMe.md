@@ -26,19 +26,18 @@ Cons
 `Operation.` -  flaw in the way the users interact with the system (social engineering) the psychological manipulation of people   
 `Integration` - components are insecurely combined.    
 
-`privilege Escalation` - elevating permission from a regular user to an “admin” or “root”.   
+`privilege Escalation` - elevating permission from a regular user to an “admin” or “root”.  
+
+`Speculative execution` - an optimization technique where a computer system performs some task that may not be needed. Work is done before it is known whether it is actually needed, so as to prevent a delay that would have to be incurred by doing the work after it is known that it is needed. If it turns out the work was not needed after all, most changes made by the work are reverted and the results are ignored. [Vox](https://www.youtube.com/watch?v=d1BRw32nMqg); Vulnerability in the cache.     
 
 `side-channel attack` - attack based on byproducts of the system, ie time it takes the system to run or the sounds emitted by the CPU.  
 `zero day attack` - no one knows about the attack; minute is discovered engineers have zero days to fix it     
 `meltdown` - vulnerability on the hardware level, can read memory not authorized to access.      
-`watering hole attack` -    
-`machine address code` (mac) -    
-`evil maid attack`      
+`watering hole attack` - an attacker guesses or observes which websites an organization often uses and infects one or more of them with malware. Eventually, some member of the targeted group will become infected. [wiki](https://en.wikipedia.org/wiki/Watering_hole_attack)       
+`machine address code` (mac) [wiki](https://en.wikipedia.org/wiki/MAC_address)      
+`evil maid attack` - an attacker with physical access alters it in some undetectable way so that they can later access the device, or the data on it [wiki](https://en.wikipedia.org/wiki/Evil_maid_attack)        
 
 Vault 7 - [wikileaks](https://en.wikipedia.org/wiki/Vault_7)    
-
-`Speculative execution` - an optimization technique where a computer system performs some task that may not be needed. Work is done before it is known whether it is actually needed, so as to prevent a delay that would have to be incurred by doing the work after it is known that it is needed. If it turns out the work was not needed after all, most changes made by the work are reverted and the results are ignored. [Vox](https://www.youtube.com/watch?v=d1BRw32nMqg); Vulnerability in the cache.     
-
 [Time-of-check to time-of-use](https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use)    
 
 Cryptanalyis Github via [DominicBreuker](https://github.com/DominicBreuker/cryptanalysis)
