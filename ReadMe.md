@@ -1,5 +1,5 @@
 ## Information Security I: From Cryptography to Buffer Overflows
-The objective of taking this course was to learn more cryptographic primitives and hash functions regarding security. Not wanting a full Cryptography course, I wanted a lower lever introduction to security and various exploits.    
+The objective of taking this course was to learn more cryptographic primitives and hash functions. Not wanting a full Cryptography course, I wanted a lower lever introduction to security and various exploits.    
 
 Check out https://haveibeenpwned.com/ and test your email address to see if your accounts have been compromised.     
 
@@ -11,7 +11,7 @@ Pros:
  
 Cons
  - videos aren't very detailed (found more info searching on my own)
- - not on youtube (can't download/have to watch on the site)
+ - not on youtube (can't download/have to watch on site)
 
 ---
 
@@ -20,24 +20,28 @@ Cons
  `exploit` - leverages a vulnerability to violate a system's security policy, usually with malicious intent. One of the most popular exploits is denial of service.     
 `remote code execution` - an attacker gets to execute software, code, of her own, on the victim's machine.  
 
-`Design vuln.` - flaw in the way a system is designed; most commonly, an unconsidered usage (logical vulnerability).   
-`Implimentation vuln` - flaw in the way a system system is implemented; a programming mistake (technical vulnerability).   
-`Operation vuln.` -  flaw in the way the users interact with the system (social engineering) the psychological manipulation of people   
-`Integration vuln.` - components are insecurely combined.    
+#### Vulnerabilities
+`Design` - flaw in the way a system is designed; most commonly, an unconsidered usage (logical vulnerability).   
+`Implimentation` - flaw in the way a system system is implemented; a programming mistake (technical vulnerability).   
+`Operation.` -  flaw in the way the users interact with the system (social engineering) the psychological manipulation of people   
+`Integration` - components are insecurely combined.    
 
 `privilege Escalation` - elevating permission from a regular user to an “admin” or “root”.   
 
 `side-channel attack` - attack based on byproducts of the system, ie time it takes the system to run or the sounds emitted by the CPU.  
-`zero day attack` - no one knows about the attack; minute is discovered engineers have zero days to fix it   
-`watering hole attack` - 
-`machine address code` (mac) - 
+`zero day attack` - no one knows about the attack; minute is discovered engineers have zero days to fix it     
+`meltdown` - vulnerability on the hardware level, can read memory not authorized to access.      
+`watering hole attack` -    
+`machine address code` (mac) -    
 `evil maid attack`      
 
 Vault 7 - [wikileaks](https://en.wikipedia.org/wiki/Vault_7)    
 
 `Speculative execution` - an optimization technique where a computer system performs some task that may not be needed. Work is done before it is known whether it is actually needed, so as to prevent a delay that would have to be incurred by doing the work after it is known that it is needed. If it turns out the work was not needed after all, most changes made by the work are reverted and the results are ignored. [Vox](https://www.youtube.com/watch?v=d1BRw32nMqg); Vulnerability in the cache.     
 
-[Time-of-check to time-of-use](https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use)   
+[Time-of-check to time-of-use](https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use)    
+
+Cryptanalyis Github via [DominicBreuker](https://github.com/DominicBreuker/cryptanalysis)
 
 ---
 
