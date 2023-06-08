@@ -124,4 +124,6 @@ From Snowden’s book [Permanent Record](https://www.amazon.com/Permanent-Record
 `Turbulence` - request goes through servers; turmoil - guard - passive collections, copies data coming through (if flagged as suspicious goes to turbine)    
 `Turbine` - active collection, tampering (programs of quantum suite)   
 
+Flipper zero - a portable Tamagotchi-like multi-functional device developed for interaction with access control systems.[1] The device is able to read, copy, and emulate RFID and NFC tags, radio remotes, iButton, and digital access keys, along with a GPIO interface; [wiki](https://en.wikipedia.org/wiki/Flipper_Zero)   
+
 Nicole Perlroth NYT - [Twitter](https://twitter.com/NicolePerlroth).  
