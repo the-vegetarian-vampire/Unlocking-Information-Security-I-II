@@ -104,7 +104,14 @@ According to David Mitnik's [Art of Invisibility](https://www.goodreads.com/book
 
 `ASLR`.  
 
+---   
 
+## Unlocking Information Security II: An Internet Perspective
+---   
+## Network Vulnerabilities and Defenses
+---   
+---   
+---   
 ---   
 ## ETC
 From Snowden’s book [Permanent Record](https://www.amazon.com/Permanent-Record-Edward-Snowden/dp/1250237238)   
