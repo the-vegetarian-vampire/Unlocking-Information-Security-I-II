@@ -109,6 +109,11 @@ According to David Mitnik's [Art of Invisibility](https://www.goodreads.com/book
 ## Unlocking Information Security II: An Internet Perspective
 ---   
 ## Network Vulnerabilities and Defenses
+The 7 Layers Model
+- Layer 1 is the physical layer. Functionality: in charge of converting bits into signals and vice versa.
+
+Implementation:
+The physical layer is always implemented in hardware.
 ---   
 ---   
 ---   
