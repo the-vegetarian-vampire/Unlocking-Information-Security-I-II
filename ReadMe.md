@@ -1,7 +1,7 @@
 ## Information Security I: From Cryptography to Buffer Overflows
 The objective of taking this course was to learn more cryptographic primitives and hash functions. Not wanting a full Cryptography course, I wanted a lower lever introduction to security and various exploits.    
 
-Check out https://haveibeenpwned.com/ and test your email address to see if your accounts have been compromised.     
+Check out https://haveibeenpwned.com/ and test your email address if your accounts have been compromised.     
 
 Class [Link](https://www.edx.org/course/unlocking-information-security-i-from-cryptography-to-buffer-overflows) $125 (with discount) for access to exercises/quizzes/test.      
 
@@ -77,7 +77,7 @@ f(x) =(x \* 127) mod 13
 `replay attacks` pass-the-hash attacks.   
 `pseudo-random generator (PRG)` -    
 
-`insult rate` - 
+`insult rate` -    
 `fraud rate` -    
 
 [IMSI-catcher](https://en.wikipedia.org/wiki/IMSI-catcher) - a telephone eavesdropping device used for intercepting mobile phone traffic and tracking location data of mobile phone users   
@@ -121,11 +121,16 @@ The 7 Layers Model
   - Functionality:
 Layer 4’s main job is to create reliable message channels through the unreliable layers below it. It does this like registered mail: the sender side assigns sequence numbers to packets, and the receiver side has to acknowledge each packet it gets. If the sender doesn’t receive an expected ”ack” fast enough, it retransmits the packet, under the assumption that it was dropped.
 Note that a connection at layer 4 is bi-directional: both sides are simultaneously senders and receivers. Each assigns sequence numbers to the packets that it sends, and acknowledges the packets the other side sends. Protocol: In the Internet the transport layer most commonly uses the Transmission Control Protocol (TCP). There is also a more basic transport protocol in the Internet called UDP, which is used by applications that do not require all of TCP’s functionality. Implementation: Like IP, both TCP and UDP are implemented in software as part of the operating system.
-- The ISO people that designed the 7-layer model went further and defined layer 5 (called “session”), layer 6 (“presentation”) and layer 7 (“application”). But these definitions didn’t catch on. The Internet designers stopped at layer 4, and lumped all the higher layer functions into one big undefined application layer.
+- Layer 5 (called “session”), 
+- layer 6 (“presentation”) 
+- layer 7 (“application”). But these definitions didn’t catch on. The Internet designers stopped at layer 4, and lumped all the higher layer functions into one big undefined application layer.
  
 ---   
+## Advanced Cryptography
 ---   
+Web Vulnerabilities and Defenses
 ---   
+## Computer Viruses and How to Beat Them
 ---   
 ## ETC
 From Snowden’s book [Permanent Record](https://www.amazon.com/Permanent-Record-Edward-Snowden/dp/1250237238)   
