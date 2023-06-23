@@ -145,6 +145,7 @@ Note that a connection at layer 4 is bi-directional: both sides are simultaneous
 [Killnet](https://en.m.wikipedia.org/wiki/Killnet)   
 [Blackenergy](https://en.m.wikipedia.org/wiki/BlackEnergy)   
 [Industroyer](https://en.wikipedia.org/wiki/Industroyer)   
+NotPetya - The Untold Story of NotPetya, the Most Devastating Cyberattack in History [Link](https://www.wired.com/story/notpetya-cyberattack-ukraine-russia-code-crashed-the-world/)   
 
 From Snowden’s book [Permanent Record](https://www.amazon.com/Permanent-Record-Edward-Snowden/dp/1250237238)   
 - The 5 eyes: U.S., UK, Australia, Canada, New Zealand  
