@@ -1,5 +1,5 @@
 ## Information Security I: From Cryptography to Buffer Overflows
-The objective of taking this course was to learn more about cryptographic primitives, hash functions, and a lower lever introduction to cybersecurity and various exploits.    
+The objective of taking this course was to learn more about cryptographic primitives, hash functions, and a lower level introduction to cybersecurity and various exploits.    
 
 Check out https://haveibeenpwned.com/ and test your email address if you've been compromised.     
 
@@ -17,7 +17,7 @@ Cons
 
 ## Vulnerabilities and Exploits
 `vulnerability` - a flaw in a system's design, implementation or operation, that can be exploited to violate the system's security policy.    
- `exploit` - leverages a vulnerability to violate a system's security policy, usually with malicious intent. One of the most popular exploits is denial of service.     
+`exploit` - leverages a vulnerability to violate a system's security policy, usually with malicious intent. One of the most popular exploits is denial of service.     
 `remote code execution` - an attacker gets to execute software, code, of her own, on the victim's machine.  
 
 #### Vulnerabilities
@@ -35,7 +35,7 @@ Cons
 `meltdown` - vulnerability on the hardware level, can read memory not authorized to access.      
 `watering hole attack` - an attacker guesses or observes which websites an organization often uses and infects one or more of them with malware. Eventually, some member of the targeted group will become infected. [wiki](https://en.wikipedia.org/wiki/Watering_hole_attack)       
 `machine address code` or `medium access control` (mac) [wiki](https://en.wikipedia.org/wiki/MAC_address) or [wiki2](https://en.wikipedia.org/wiki/Medium_access_control)     
-`dictionary attacks` -    
+`dictionary attacks` - an attack using a restricted subset of a keyspace to defeat a cipher or authentication mechanism by trying to determine its decryption key or passphrase, sometimes trying thousands or millions of likely possibilities[1] often obtained from lists of past security breaches   
 `evil maid attack` - an attacker with physical access alters it in some undetectable way so that they can later access the device, or the data on it [wiki](https://en.wikipedia.org/wiki/Evil_maid_attack)        
 
 Vault 7 - [wikileaks](https://en.wikipedia.org/wiki/Vault_7)    
@@ -60,6 +60,8 @@ Cryptanalyis Github via [DominicBreuker](https://github.com/DominicBreuker/crypt
 
 Kerckhoff’s principle:   
 `One Time Pad` encryption technique that cannot be cracked but requires the use of a one-time pre-shared key the same size or longer than the message sent.
+
+`PGP` - [Pretty Good Privacy](https://en.m.wikipedia.org/wiki/Pretty_Good_Privacy#Digital_signatures)_used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications. Phil Zimmermann developed PGP in 1991.   
 
 ---
 
@@ -140,6 +142,7 @@ Note that a connection at layer 4 is bi-directional: both sides are simultaneous
 `smurf attack` -    
 
 `Mimikatz` - [exploit](https://en.wikipedia.org/wiki/Mimikatz) on Microsoft Windows that extracts passwords stored in memory and software that performs that exploit   
+`Air gap` - [air gap, air wall, or disconnected network](https://en.wikipedia.org/wiki/Air_gap_(networking)) - a network security measure employed on one or more computers to ensure that a secure computer network is physically isolated from unsecured networks, such as the public Internet or an unsecured local area network   
 
 ---   
 ## Computer Viruses and How to Beat Them
@@ -173,5 +176,5 @@ From Snowden’s book [Permanent Record](https://www.amazon.com/Permanent-Record
 
 Flipper zero - a portable Tamagotchi-like multi-functional device developed for interaction with access control systems.[1] The device is able to read, copy, and emulate RFID and NFC tags, radio remotes, iButton, and digital access keys, along with a GPIO interface; [wiki](https://en.wikipedia.org/wiki/Flipper_Zero)   
 
-Andy Greenberg - Sandworm; [Tracers in the Dark](https://www.amazon.com/Tracers-Dark-Global-Crime-Cryptocurrency/dp/0385548095)    
+Andy Greenberg - Sandworm and [Tracers in the Dark](https://www.amazon.com/Tracers-Dark-Global-Crime-Cryptocurrency/dp/0385548095)       
 Nicole Perlroth NYT - [Twitter](https://twitter.com/NicolePerlroth).  
