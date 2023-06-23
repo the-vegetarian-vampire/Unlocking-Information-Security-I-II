@@ -1,9 +1,9 @@
 ## Information Security I: From Cryptography to Buffer Overflows
-The objective of taking this course was to learn more cryptographic primitives and hash functions. I wanted a lower lever introduction to cybersecurity and various exploits.    
+The objective of taking this course was to learn more about cryptographic primitives, hash functions, and a lower lever introduction to cybersecurity and various exploits.    
 
 Check out https://haveibeenpwned.com/ and test your email address if you've been compromised.     
 
-Class [Link](https://www.edx.org/course/unlocking-information-security-i-from-cryptography-to-buffer-overflows) $125 (with discount) for access to exercises/quizzes/test.      
+Class [Link](https://www.edx.org/course/unlocking-information-security-i-from-cryptography-to-buffer-overflows) $125/per class (with discount) for access to exercises/quizzes/test.      
 
 Pros:
  - excellent content/mid level overview
@@ -26,15 +26,16 @@ Cons
 `Operation.` -  flaw in the way the users interact with the system (social engineering) the psychological manipulation of people   
 `Integration` - components are insecurely combined.    
 
-`privilege Escalation` - elevating permission from a regular user to an “admin” or “root”.  
+`privilege escalation` - elevating permission from a regular user to an “admin” or “root”.  
 
-`Speculative execution` - an optimization technique where a computer system performs some task that may not be needed. Work is done before it is known whether it is actually needed, so as to prevent a delay that would have to be incurred by doing the work after it is known that it is needed. If it turns out the work was not needed after all, most changes made by the work are reverted and the results are ignored. [Vox](https://www.youtube.com/watch?v=d1BRw32nMqg); Vulnerability in the cache.     
+`speculative execution` - an optimization technique where a computer system performs some task that may not be needed. Work is done before it is known whether it is actually needed, so as to prevent a delay that would have to be incurred by doing the work after it is known that it is needed. If it turns out the work was not needed after all, most changes made by the work are reverted and the results are ignored. [Vox](https://www.youtube.com/watch?v=d1BRw32nMqg); Vulnerability in the cache.     
 
 `side-channel attack` - attack based on byproducts of the system, ie time it takes the system to run or the sounds emitted by the CPU.  
 `zero day attack` - no one knows about the attack; minute is discovered engineers have zero days to fix it     
 `meltdown` - vulnerability on the hardware level, can read memory not authorized to access.      
 `watering hole attack` - an attacker guesses or observes which websites an organization often uses and infects one or more of them with malware. Eventually, some member of the targeted group will become infected. [wiki](https://en.wikipedia.org/wiki/Watering_hole_attack)       
-`machine address code` (mac) [wiki](https://en.wikipedia.org/wiki/MAC_address)      
+`machine address code` or `medium access control` (mac) [wiki](https://en.wikipedia.org/wiki/MAC_address) or [wiki2](https://en.wikipedia.org/wiki/Medium_access_control)     
+`dictionary attacks` -    
 `evil maid attack` - an attacker with physical access alters it in some undetectable way so that they can later access the device, or the data on it [wiki](https://en.wikipedia.org/wiki/Evil_maid_attack)        
 
 Vault 7 - [wikileaks](https://en.wikipedia.org/wiki/Vault_7)    
@@ -134,6 +135,11 @@ Note that a connection at layer 4 is bi-directional: both sides are simultaneous
 `MiTM` Man in the Middle attack -    
 `Traffic sniffing` - https://www.wireshark.org/   
 `Scapy` - https://scapy.net/ - powerful python package for packet manipulation   
+`sniffer` -    
+`Ping of death` - outdated blaster worm   
+`smurf attack` -    
+
+`Mimikatz` - [exploit](https://en.wikipedia.org/wiki/Mimikatz) on Microsoft Windows that extracts passwords stored in memory and software that performs that exploit   
 
 ---   
 ## Computer Viruses and How to Beat Them
@@ -167,5 +173,5 @@ From Snowden’s book [Permanent Record](https://www.amazon.com/Permanent-Record
 
 Flipper zero - a portable Tamagotchi-like multi-functional device developed for interaction with access control systems.[1] The device is able to read, copy, and emulate RFID and NFC tags, radio remotes, iButton, and digital access keys, along with a GPIO interface; [wiki](https://en.wikipedia.org/wiki/Flipper_Zero)   
 
-Andy Greenberg - Sandworm; [Tracers in the Dark](https://www.amazon.com/Tracers-Dark-Global-Crime-Cryptocurrency/dp/0385548095)
+Andy Greenberg - Sandworm; [Tracers in the Dark](https://www.amazon.com/Tracers-Dark-Global-Crime-Cryptocurrency/dp/0385548095)    
 Nicole Perlroth NYT - [Twitter](https://twitter.com/NicolePerlroth).  
