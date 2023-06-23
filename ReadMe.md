@@ -131,9 +131,10 @@ Note that a connection at layer 4 is bi-directional: both sides are simultaneous
 ---   
 ## Web Vulnerabilities and Defenses
 
-`MiTM` Man in the Middle attack -   
-`Traffic sniffing` - https://www.wireshark.org/
-`Scapy` - https://scapy.net/ - powerful python package for packet manipulation
+`MiTM` Man in the Middle attack -    
+`Traffic sniffing` - https://www.wireshark.org/   
+`Scapy` - https://scapy.net/ - powerful python package for packet manipulation   
+
 ---   
 ## Computer Viruses and How to Beat Them
 ---   
