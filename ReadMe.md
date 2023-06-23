@@ -1,12 +1,12 @@
 ## Information Security I: From Cryptography to Buffer Overflows
-The objective of taking this course was to learn more cryptographic primitives and hash functions. Not wanting a full Cryptography course, I wanted a lower lever introduction to security and various exploits.    
+The objective of taking this course was to learn more cryptographic primitives and hash functions. I wanted a lower lever introduction to cybersecurity and various exploits.    
 
-Check out https://haveibeenpwned.com/ and test your email address if your accounts have been compromised.     
+Check out https://haveibeenpwned.com/ and test your email address if you've been compromised.     
 
 Class [Link](https://www.edx.org/course/unlocking-information-security-i-from-cryptography-to-buffer-overflows) $125 (with discount) for access to exercises/quizzes/test.      
 
 Pros:
- - excellent content/high-mid level overview
+ - excellent content/mid level overview
  - problem sets/"hackxercises"   
  
 Cons
@@ -52,8 +52,9 @@ Cryptanalyis Github via [DominicBreuker](https://github.com/DominicBreuker/crypt
 `Pseudo-Random Generator (PRG)` -     
 
 `Symmetric Cipher` - use same cryptographic keys for encryption of plaintext and decryption of ciphertext.   
-`XOR Cipher` - boolean operator on two variables that has the value of one if one but not both of the variables has a value of one.   
-`Stream cipher` - a cryptographic key and algorithm are applied to each binary digit in a data stream, one bit at a time.       
+`XOR Cipher` - boolean operator on two variables that has the value of one if one but not both of the variables has a value of one.     
+`Stream cipher` - a cryptographic key and algorithm are applied to each binary digit in a data stream, one bit at a time.  
+  - susceptible to bit-flipping attacks   
 `Block cipher`  - a cryptographic key and algorithm are applied to a block of data as a group rather tha one bit at a time.  
 
 Kerckhoff’s principle:   
@@ -128,11 +129,22 @@ Note that a connection at layer 4 is bi-directional: both sides are simultaneous
 ---   
 ## Advanced Cryptography
 ---   
-Web Vulnerabilities and Defenses
+## Web Vulnerabilities and Defenses
+
+`MiTM` Man in the Middle attack -   
+`Traffic sniffing` - https://www.wireshark.org/
+`Scapy` - https://scapy.net/ - powerful python package for packet manipulation
 ---   
 ## Computer Viruses and How to Beat Them
 ---   
 ## ETC
+
+[Stuxnet](https://en.m.wikipedia.org/wiki/Stuxnet)   
+[Havex](https://en.m.wikipedia.org/wiki/Havex)   
+[Killnet](https://en.m.wikipedia.org/wiki/Killnet)   
+[Blackenergy](https://en.m.wikipedia.org/wiki/BlackEnergy)   
+[Industroyer](https://en.wikipedia.org/wiki/Industroyer)   
+
 From Snowden’s book [Permanent Record](https://www.amazon.com/Permanent-Record-Edward-Snowden/dp/1250237238)   
 - The 5 eyes: U.S., UK, Australia, Canada, New Zealand  
 - 6 Protocols: 
@@ -143,7 +155,8 @@ From Snowden’s book [Permanent Record](https://www.amazon.com/Permanent-Record
   - exploit it all (using intel to further agency aim)
   - partner it all (share with Allies)
 
-
+`SIGINT` - [SIGINT Activity Designator](https://en.wikipedia.org/wiki/SIGINT_Activity_Designator) - signals intelligence (SIGINT) line of collection activity associated with a signals collection station   
+`HUMINT` - [human intelligence](https://en.wikipedia.org/wiki/Human_intelligence_(intelligence_gathering))   
 `Prism collection` - from servers of service providers   
 `Upstream collection` - direct collection from internet infrastructure    
 
@@ -152,4 +165,5 @@ From Snowden’s book [Permanent Record](https://www.amazon.com/Permanent-Record
 
 Flipper zero - a portable Tamagotchi-like multi-functional device developed for interaction with access control systems.[1] The device is able to read, copy, and emulate RFID and NFC tags, radio remotes, iButton, and digital access keys, along with a GPIO interface; [wiki](https://en.wikipedia.org/wiki/Flipper_Zero)   
 
+Andy Greenberg - Sandworm; [Tracers in the Dark](https://www.amazon.com/Tracers-Dark-Global-Crime-Cryptocurrency/dp/0385548095)
 Nicole Perlroth NYT - [Twitter](https://twitter.com/NicolePerlroth).  
