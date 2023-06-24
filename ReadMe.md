@@ -1,17 +1,16 @@
 ## Information Security I: From Cryptography to Buffer Overflows
 The objective of taking this course was to learn more about cryptographic primitives, hash functions, and a lower level introduction to cybersecurity and various exploits.    
 
-Check out https://haveibeenpwned.com/ and test your email address if you've been compromised.     
-
-Class [Link](https://www.edx.org/course/unlocking-information-security-i-from-cryptography-to-buffer-overflows) $125/per class (with discount) for access to exercises/quizzes/test.      
+- Check https://haveibeenpwned.com/ and test if you've been compromised.     
+- Class [Link](https://www.edx.org/course/unlocking-information-security-i-from-cryptography-to-buffer-overflows) $125/per class (with discount) for access to exercises/quizzes/tests.      
 
 Pros:
  - excellent content/mid level overview
  - problem sets/"hackxercises"   
  
 Cons
- - videos aren't very detailed (found more info searching on my own)
- - not on youtube (can't download/have to watch on site)
+ - video format not on youtube (can't download/have to watch on site)
+ - quizzes and tests require exact syntax (missed a few, despite being technically correct)
 
 ---
 
@@ -37,7 +36,6 @@ Cons
 `machine address code` or `medium access control` (mac) [wiki](https://en.wikipedia.org/wiki/MAC_address) or [wiki2](https://en.wikipedia.org/wiki/Medium_access_control)     
 `dictionary attacks` - an attack using a restricted subset of a keyspace to defeat a cipher or authentication mechanism by trying to determine its decryption key or passphrase, sometimes trying thousands or millions of likely possibilities[1] often obtained from lists of past security breaches   
 `evil maid attack` - an attacker with physical access alters it in some undetectable way so that they can later access the device, or the data on it [wiki](https://en.wikipedia.org/wiki/Evil_maid_attack)        
-
 Vault 7 - [wikileaks](https://en.wikipedia.org/wiki/Vault_7)    
 [Time-of-check to time-of-use](https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use)    
 
@@ -47,10 +45,10 @@ Cryptanalyis Github via [DominicBreuker](https://github.com/DominicBreuker/crypt
 
 ## Cryptography
 
-`plaintext` -   
-`ciphertext` - encrypted plaintext.   
-`initialization vector` -     
-`Pseudo-Random Generator (PRG)` -     
+`plaintext` - unencrypted information pending input into cryptographic algorithms   
+`ciphertext` - encrypted plaintext  
+`initialization vector` - an initialization vector (IV) or starting variable is an input to a cryptographic primitive being used to provide the initial state. The IV is typically required to be random or pseudorandom, but sometimes an IV only needs to be unpredictable or unique. Randomization is crucial for some encryption schemes to achieve semantic security, a property whereby repeated usage of the scheme under the same key does not allow an attacker to infer relationships between (potentially similar) segments of the encrypted message.   
+`Pseudo-Random Generator (PRG)` - deterministic procedure that maps a random seed to a longer pseudorandom string so no statistical test can distinguish between the output of the generator and the uniform distribution.   
 
 `Symmetric Cipher` - use same cryptographic keys for encryption of plaintext and decryption of ciphertext.   
 `XOR Cipher` - boolean operator on two variables that has the value of one if one but not both of the variables has a value of one.     
@@ -59,7 +57,7 @@ Cryptanalyis Github via [DominicBreuker](https://github.com/DominicBreuker/crypt
 `Block cipher`  - a cryptographic key and algorithm are applied to a block of data as a group rather tha one bit at a time.  
 
 Kerckhoff’s principle:   
-`One Time Pad` encryption technique that cannot be cracked but requires the use of a one-time pre-shared key the same size or longer than the message sent.
+`One Time Pad` - encryption technique that cannot be cracked but requires the use of a one-time pre-shared key the same size or longer than the message sent.
 
 `PGP` - [Pretty Good Privacy](https://en.m.wikipedia.org/wiki/Pretty_Good_Privacy#Digital_signatures)_used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications. Phil Zimmermann developed PGP in 1991.   
 
