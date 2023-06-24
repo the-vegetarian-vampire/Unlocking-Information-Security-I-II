@@ -33,9 +33,8 @@ Cons
 `zero day attack` - no one knows about the attack; minute is discovered engineers have zero days to fix it     
 `meltdown` - vulnerability on the hardware level, can read memory not authorized to access.      
 `watering hole attack` - an attacker guesses or observes which websites an organization often uses and infects one or more of them with malware. Eventually, some member of the targeted group will become infected. [wiki](https://en.wikipedia.org/wiki/Watering_hole_attack)       
-`machine address code` or `medium access control` (mac) [wiki](https://en.wikipedia.org/wiki/MAC_address) or [wiki2](https://en.wikipedia.org/wiki/Medium_access_control)     
-`dictionary attacks` - an attack using a restricted subset of a keyspace to defeat a cipher or authentication mechanism by trying to determine its decryption key or passphrase, sometimes trying thousands or millions of likely possibilities[1] often obtained from lists of past security breaches   
-`evil maid attack` - an attacker with physical access alters it in some undetectable way so that they can later access the device, or the data on it [wiki](https://en.wikipedia.org/wiki/Evil_maid_attack)        
+`machine address code` or `medium access control` (mac) [wiki](https://en.wikipedia.org/wiki/MAC_address) or [wiki2](https://en.wikipedia.org/wiki/Medium_access_control)       
+
 Vault 7 - [wikileaks](https://en.wikipedia.org/wiki/Vault_7)    
 [Time-of-check to time-of-use](https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use)    
 
@@ -53,7 +52,8 @@ Cryptanalyis Github via [DominicBreuker](https://github.com/DominicBreuker/crypt
 `Symmetric Cipher` - use same cryptographic keys for encryption of plaintext and decryption of ciphertext.   
 `XOR Cipher` - boolean operator on two variables that has the value of one if one but not both of the variables has a value of one.     
 `Stream cipher` - a cryptographic key and algorithm are applied to each binary digit in a data stream, one bit at a time.  
-  - susceptible to bit-flipping attacks   
+  - susceptible to bit-flipping attacks
+ 
 `Block cipher`  - a cryptographic key and algorithm are applied to a block of data as a group rather tha one bit at a time.  
 
 Kerckhoff’s principle:   
@@ -67,20 +67,23 @@ Kerckhoff’s principle:
 
 `hash function` - function that takes an input (a large amount of data) and produces a fixed-size output (hash or digest) that represents the input in a way that is useful for a variety of purposes, such as verifying the integrity of the data or detecting duplicates.   
 
-`salt` -    
+`salt` - or [salting](https://en.wikipedia.org/wiki/Salt_(cryptography)) random data that is used as an additional input to a one-way function that hashes data, a password or passphrase. Salts are used to safeguard passwords in storage   
 
 f(x) =(x \* 127) mod 13
+
+`message digest 5` – a popular hash function from 1991 (outdated/no longer secure)   
 
 ---
 
 ## Authentication
 `Two-factor authentication` (2FA) a security process in which a user provides two different authentication factors to verify their identity; factors can be something the user knows (such as a password or PIN), something the user has (such as a security token or mobile device), or something the user is (such as a biometric identifier like a fingerprint or facial recognition).   
 
-`replay attacks` pass-the-hash attacks.   
-`pseudo-random generator (PRG)` -    
+`replay attacks` - [pass-the-hash attacks](https://www.crowdstrike.com/cybersecurity-101/pass-the-hash/); an adversary steals a “hashed” user credential and uses it to create a new user session on the same network   
+`dictionary attacks` - an attack using a restricted subset of a keyspace to defeat a cipher or authentication mechanism by trying to determine its decryption key or passphrase, sometimes trying thousands or millions of likely possibilities[1] often obtained from lists of past security breaches   
+`evil maid attack` - an attacker with physical access alters it in some undetectable way so that they can later access the device, or the data on it [wiki](https://en.wikipedia.org/wiki/Evil_maid_attack)    
 
-`insult rate` -    
-`fraud rate` -    
+`insult rate` - percentage of times a valid user is rejected by the system      
+`fraud rate` - percentage of times an invalid user is accepted by the system   
 
 [IMSI-catcher](https://en.wikipedia.org/wiki/IMSI-catcher) - a telephone eavesdropping device used for intercepting mobile phone traffic and tracking location data of mobile phone users   
 
@@ -99,12 +102,12 @@ According to David Mitnik's [Art of Invisibility](https://www.goodreads.com/book
 
 `stack overflow` - buffer overflow overwriting a function's return address.
 
-`canary` -   
-`data execution prevention` - DEP.  prevents code on the stack
+`canary` - values that are placed between a buffer and control data on the stack to monitor buffer overflows.   
+`data execution prevention` - DEP - prevents code on the stack; prevents memory from being executable and writable
 
 `W^X princicple` - memory should be writeable or executable, never both.    
 
-`ASLR`.  
+`ASLR` - [address space layout randomization](https://en.wikipedia.org/wiki/Address_space_layout_randomization) technique involved in preventing exploitation of memory corruption vulnerabilities. In order to prevent an attacker from reliably jumping to, for example, a particular exploited function in memory, ASLR randomly arranges the address space positions of key data areas of a process, including the base of the executable and the positions of the stack, heap and libraries.   
 
 ---   
 
