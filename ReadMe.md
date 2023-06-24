@@ -119,7 +119,7 @@ According to David Mitnik's [Art of Invisibility](https://www.goodreads.com/book
 `local area network` or LAN, computer network that interconnects computers within a limited area such as a residence, school, laboratory, university campus or office building. Ethernet and Wi-Fi are the two most common technologies in use for local area networks.   
 `internet protocol` - (IP) the principal communications protocol in the Internet protocol suite for relaying datagrams (message packets) across network boundaries. Its routing function enables internetworking, and essentially establishes the Internet.   
 `End-to-End Encryption` - system of communication where only the communicating users can read the messages, prevents potential eavesdroppers – including telecom providers, Internet providers, and even the provider of the communication service from being able to access the cryptographic keys needed to decrypt the conversation.   
-`firewall` - monitors and controls incoming and outgoing network traffic based on predetermined security rules.
+`firewall` - monitors and controls incoming and outgoing network traffic based on predetermined security rules.   
 `packets` - formatted unit of data carried by a packet-switched network; consists of control information and user data, which is known as the payload.   
 `headers` - in a data packet sent via the Internet, the data (payload) are preceded by header information such as sender's and recipient's IP addresses, the protocol governing the format of the payload and several other formats.   
 
@@ -147,7 +147,7 @@ Note that a connection at layer 4 is bi-directional: both sides are simultaneous
 `IP address spoofing` - creation of Internet Protocol (IP) packets with a false source IP address, for the purpose of impersonating another computing system.   
 `IP spoofing` - creation of Internet Protocol (IP) packets with a false source IP address, for the purpose of impersonating another computing system.   
 
-`sniffer` - computer software or hardware that can intercept and log traffic passing over a digital network.
+`sniffer` - computer software or hardware that can intercept and log traffic passing over a digital network.   
 `Man in the Middle attack` - MiTM, attacker secretly relays and alters communications between two parties who believe they are directly communicating with each other.   
 
 ---   
@@ -160,8 +160,8 @@ Note that a connection at layer 4 is bi-directional: both sides are simultaneous
 ---   
 ## Web Vulnerabilities and Defenses
  
-`Traffic sniffing` - https://www.wireshark.org/   
-`Scapy` - https://scapy.net/ - powerful python package for packet manipulation    
+`traffic sniffing` - https://www.wireshark.org/   
+[Scapy](https://scapy.net/) - powerful python package for packet manipulation    
 `Ping of death` - outdated blaster worm   
 `smurf attack` -    
 
@@ -170,6 +170,40 @@ Note that a connection at layer 4 is bi-directional: both sides are simultaneous
 
 ---   
 ## Computer Viruses and How to Beat Them
+
+`trojan Horse` - Any malware which misleads users of its true intent. The term is derived from the Ancient Greek story of the deceptive Trojan Horse that led to the fall of the city of Troy.   
+`virus` - type of computer program that, when executed, replicates itself by modifying other computer programs and inserting its own code into them.   
+`worm` - standalone malware computer program that replicates itself in order to spread to other computers.    
+
+Backdoor Malware: A malware that negates normal authentication procedures to access a system. As a result, remote access is granted to resources within an application, such as databases and file servers, giving perpetrators the ability to remotely issue system commands and update malware. Core War: A 1984 programming game created by D. G. Jones and A. K. Dewdney in which two or more battle programs (called "warriors") compete for control of a virtual computer. These battle programs are written in an abstract assembly language called Redcode.
+
+`creeper` - experimental computer program written by Bob Thomas at BBN in 1971. Its original iteration was designed to move between DEC PDP-10 mainframe computers running the TENEX operating system using the ARPANET, with a later version by Ray Tomlinson designed to copy itself between computers rather than simply move.
+
+`metamorphic code` - code that when run outputs a logically equivalent version of its own code under some interpretation.
+
+`Non-Resident Malware` - variant of computer related malicious software that exists exclusively as a computer memory-based artifact, e.g. in RAM. It does not write any part of its activity to the computer's hard drive.
+`Resident Malware` - variant of computer related malicious software that hides and stores itself on the computer's hard drive.
+
+Polymorphic Code: Code that uses a polymorphic engine to mutate while keeping the original algorithm intact. That is, the code changes itself each time it runs, but the function of the code (its semantics) will not change at all.
+Quine: A computer program which takes no input and produces a copy of its own source code as its only output.
+Reaper: The first anti-virus software. It was created by Ray Tomlinson to move across the ARPANET and delete the self-replicating Creeper worm.
+
+`resource theft` - theft of processing power.
+
+Rootkit: A collection of computer software, typically malicious, designed to enable access to a computer or an area of its software that is not otherwise allowed (for example, to an unauthorized user) and often masks its existence or the existence of other software.
+
+Self-Replicating Automata (Universal Constructor): An abstract machine which, when run, would replicate itself. In his design, the machine consists of three parts: a 'blueprint' for itself, a mechanism that can read any blueprint and construct the machine (sans blueprint) specified by that blueprint, and a 'copy machine' that can make copies of any blueprint.
+
+`static signatures` - signatures that looks at static characteristics of the malware, such as strings, code snippets or their hashes.
+
+`steganography` - method of hiding secret data, by embedding it into an audio, video, image or text file.
+
+The Morris Worm: One of the first computer worms distributed via the Internet, and the first to gain significant mainstream media attention. It also resulted in the first felony conviction in the US under the 1986 Computer Fraud and Abuse Act.
+
+
+`Advanced Research Projects Agency Network` ARPANET, early packet-switching network and the first network to implement the TCP/IP protocol suite.
+
+
 ---   
 ## ETC
 
@@ -195,10 +229,10 @@ From Snowden’s book [Permanent Record](https://www.amazon.com/Permanent-Record
 `Prism collection` - from servers of service providers   
 `Upstream collection` - direct collection from internet infrastructure    
 
-`Turbulence` - request goes through servers; turmoil - guard - passive collections, copies data coming through (if flagged as suspicious goes to turbine)    
-`Turbine` - active collection, tampering (programs of quantum suite)   
+`turbulence` - request goes through servers; turmoil - guard - passive collections, copies data coming through (if flagged as suspicious goes to turbine)    
+`turbine` - active collection, tampering (programs of quantum suite)   
 
-Flipper zero - a portable Tamagotchi-like multi-functional device developed for interaction with access control systems.[1] The device is able to read, copy, and emulate RFID and NFC tags, radio remotes, iButton, and digital access keys, along with a GPIO interface; [wiki](https://en.wikipedia.org/wiki/Flipper_Zero)   
+`flipper zero` - a portable Tamagotchi-like multi-functional device developed for interaction with access control systems.[1] The device is able to read, copy, and emulate RFID and NFC tags, radio remotes, iButton, and digital access keys, along with a GPIO interface; [wiki](https://en.wikipedia.org/wiki/Flipper_Zero)   
 
-Andy Greenberg - Sandworm and [Tracers in the Dark](https://www.amazon.com/Tracers-Dark-Global-Crime-Cryptocurrency/dp/0385548095)       
+Andy Greenberg - [Sandworm](https://www.amazon.com/Sandworm-Cyberwar-Kremlins-Dangerous-Hackers/dp/0385544405) and [Tracers in the Dark](https://www.amazon.com/Tracers-Dark-Global-Crime-Cryptocurrency/dp/0385548095)       
 Nicole Perlroth NYT - [Twitter](https://twitter.com/NicolePerlroth).  
