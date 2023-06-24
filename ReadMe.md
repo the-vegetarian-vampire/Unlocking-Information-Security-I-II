@@ -115,6 +115,14 @@ According to David Mitnik's [Art of Invisibility](https://www.goodreads.com/book
 ---   
 ## Network Vulnerabilities and Defenses 
 
+`domain name system` - DNS, hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network that convert between names like tau.ac.il to IP addresses like 132.66.11.1   
+`local area network` or LAN, computer network that interconnects computers within a limited area such as a residence, school, laboratory, university campus or office building. Ethernet and Wi-Fi are the two most common technologies in use for local area networks.   
+`internet protocol` - (IP) the principal communications protocol in the Internet protocol suite for relaying datagrams (message packets) across network boundaries. Its routing function enables internetworking, and essentially establishes the Internet.   
+`End-to-End Encryption` - system of communication where only the communicating users can read the messages, prevents potential eavesdroppers – including telecom providers, Internet providers, and even the provider of the communication service from being able to access the cryptographic keys needed to decrypt the conversation.   
+`firewall` - monitors and controls incoming and outgoing network traffic based on predetermined security rules.
+`packets` - formatted unit of data carried by a packet-switched network; consists of control information and user data, which is known as the payload.   
+`headers` - in a data packet sent via the Internet, the data (payload) are preceded by header information such as sender's and recipient's IP addresses, the protocol governing the format of the payload and several other formats.   
+
 The 7 Layers Model
 - Layer 1 - the `physical layer` 
  - Functionality: in charge of converting bits into signals and vice versa.
@@ -129,18 +137,14 @@ The 7 Layers Model
   - Functionality: Layer 4’s main job is to create reliable message channels through the unreliable layers below it. It does this like registered mail: the sender side assigns sequence numbers to packets, and the receiver side has to acknowledge each packet it gets. If the sender doesn’t receive an expected ”ack” fast enough, it retransmits the packet, under the assumption that it was dropped.
 Note that a connection at layer 4 is bi-directional: both sides are simultaneously senders and receivers. Each assigns sequence numbers to the packets that it sends, and acknowledges the packets the other side sends. Protocol: In the Internet the transport layer most commonly uses the Transmission Control Protocol (TCP). There is also a more basic transport protocol in the Internet called UDP, which is used by applications that do not require all of TCP’s functionality. Implementation: Like IP, both TCP and UDP are implemented in software as part of the operating system.
 - Layer 5 (called “session”) 
-- layer 6 (“presentation”) 
-- layer 7 (“application”) But these definitions didn’t catch on.
-- The Internet designers stopped at layer 4, and lumped all the higher layer functions into one big undefined application layer.
-
-`domain name system` - DNS, hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network that convert between names like tau.ac.il to IP addresses like 132.66.11.1
-`local area network` or LAN   
-`End-to-End Encryption` - system of communication where only the communicating users can read the messages, prevents potential eavesdroppers – including telecom providers, Internet providers, and even the provider of the communication service from being able to access the cryptographic keys needed to decrypt the conversation.   
-`firewall` - monitors and controls incoming and outgoing network traffic based on predetermined security rules.   
-
+- Layer 6 (“presentation”) 
+- Layer 7 (“application”)
+- But these definitions (5-7) didn’t catch on. The Internet designers stopped at layer 4, and lumped all the higher layer functions into one big undefined application layer.
 
 `address-resolution protocol poisoning` - an attacker sends (spoofed) Address Resolution Protocol (ARP) messages onto a local area network with the aim to associate the attacker's MAC address with the IP address of another host, such as the default gateway, causing traffic meant for that IP address to be sent to the attacker instead.   
-`DNS poisoning` - type of attack that exploits vulnerabilities in the domain name system (DNS) to divert Internet traffic away from legitimate servers and towards fake ones.  
+`DNS poisoning` - type of attack that exploits vulnerabilities in the domain name system (DNS) to divert Internet traffic away from legitimate servers and towards fake ones. 
+`IP address spoofing` - creation of Internet Protocol (IP) packets with a false source IP address, for the purpose of impersonating another computing system.   
+`IP spoofing` - creation of Internet Protocol (IP) packets with a false source IP address, for the purpose of impersonating another computing system.   
 
 
 ---   
