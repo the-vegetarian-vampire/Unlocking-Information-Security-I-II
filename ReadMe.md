@@ -116,19 +116,22 @@ According to David Mitnik's [Art of Invisibility](https://www.goodreads.com/book
 ## Network Vulnerabilities and Defenses 
 
 The 7 Layers Model
-- Layer 1 is the physical layer. 
- - Functionality: in charge of converting bits into signals and vice versa. Implementation: The physical layer is always implemented in hardware.
-- Layer 2 is the data link layer, also called the `medium access control (MAC)` layer.
-  - Functionality: Layer 2 is in charge of a `local area network (LAN)` - it’s restricted to a geographical area like your home, a cafe hotspot, a hallway in a building - at most a whole building or campus. Layer 2 communication is unreliable: messages can get garbled in transit due to electronic or radio interference - in which case they get silently dropped. Protocol: The most common layer 2 protocols are WiFi (wireless) and Ethernet (over wires). Implementation: Layer 2 is implemented either as hardware or “firmware” - software burned into the network interface cards (NICs).
- - Layer 3 is the network layer.
-   - Functionality: It is responsible for connecting millions of LANs into one giant wide-area network which is the Internet. It’s like the postal system, moving messages (called packets) from senders to receivers. And like the postal system, it’s also unreliable: packet delivery is done on a best-effort basis: if there is congestion en-route (an Internet traffic jam), packets get dropped. Protocol: the Internet the network layer uses the Internet Protocol (IP).Implementation:  IP is usually implemented in software as part of the operating system of the connected devices, and also in the infrastructure devices called routers that are the Internet’s postal workers.
-- Layer 4 is the transport layer.
-  - Functionality:
-Layer 4’s main job is to create reliable message channels through the unreliable layers below it. It does this like registered mail: the sender side assigns sequence numbers to packets, and the receiver side has to acknowledge each packet it gets. If the sender doesn’t receive an expected ”ack” fast enough, it retransmits the packet, under the assumption that it was dropped.
+- Layer 1 - the `physical layer` 
+ - Functionality: in charge of converting bits into signals and vice versa.
+ - Implementation: The physical layer is always implemented in hardware.
+- Layer 2 - the `data link layer` also called the `medium access control (MAC)` layer.
+  - Functionality: Layer 2 is in charge of a `local area network (LAN)` - it’s restricted to a geographical area like your home, a cafe hotspot, a hallway in a building - at most a whole building or campus. Layer 2 communication is unreliable: messages can get garbled in transit due to electronic or radio interference - in which case they get silently dropped.
+  - Protocol: The most common layer 2 protocols are WiFi (wireless) and Ethernet (over wires). I
+  - mplementation: Layer 2 is implemented either as hardware or “firmware” - software burned into the network interface cards (NICs).
+ - Layer 3 - the `network layer`
+   - Functionality: Responsible for connecting millions of LANs into one giant wide-area network which is the Internet. It’s like the postal system, moving messages (called packets) from senders to receivers. And like the postal system, it’s also unreliable: packet delivery is done on a best-effort basis: if there is congestion en-route (an Internet traffic jam), packets get dropped. Protocol: the Internet the network layer uses the Internet Protocol (IP).Implementation:  IP is usually implemented in software as part of the operating system of the connected devices, and also in the infrastructure devices called routers that are the Internet’s postal workers.
+- Layer 4 - the `transport layer`
+  - Functionality: Layer 4’s main job is to create reliable message channels through the unreliable layers below it. It does this like registered mail: the sender side assigns sequence numbers to packets, and the receiver side has to acknowledge each packet it gets. If the sender doesn’t receive an expected ”ack” fast enough, it retransmits the packet, under the assumption that it was dropped.
 Note that a connection at layer 4 is bi-directional: both sides are simultaneously senders and receivers. Each assigns sequence numbers to the packets that it sends, and acknowledges the packets the other side sends. Protocol: In the Internet the transport layer most commonly uses the Transmission Control Protocol (TCP). There is also a more basic transport protocol in the Internet called UDP, which is used by applications that do not require all of TCP’s functionality. Implementation: Like IP, both TCP and UDP are implemented in software as part of the operating system.
-- Layer 5 (called “session”), 
+- Layer 5 (called “session”) 
 - layer 6 (“presentation”) 
-- layer 7 (“application”). But these definitions didn’t catch on. The Internet designers stopped at layer 4, and lumped all the higher layer functions into one big undefined application layer.
+- layer 7 (“application”) But these definitions didn’t catch on.
+- The Internet designers stopped at layer 4, and lumped all the higher layer functions into one big undefined application layer.
  
 ---   
 ## Advanced Cryptography
