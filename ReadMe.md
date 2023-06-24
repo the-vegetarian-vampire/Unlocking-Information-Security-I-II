@@ -121,8 +121,8 @@ The 7 Layers Model
  - Implementation: The physical layer is always implemented in hardware.
 - Layer 2 - the `data link layer` also called the `medium access control (MAC)` layer.
   - Functionality: Layer 2 is in charge of a `local area network (LAN)` - it’s restricted to a geographical area like your home, a cafe hotspot, a hallway in a building - at most a whole building or campus. Layer 2 communication is unreliable: messages can get garbled in transit due to electronic or radio interference - in which case they get silently dropped.
-  - Protocol: The most common layer 2 protocols are WiFi (wireless) and Ethernet (over wires). I
-  - mplementation: Layer 2 is implemented either as hardware or “firmware” - software burned into the network interface cards (NICs).
+  - Protocol: The most common layer 2 protocols are WiFi (wireless) and Ethernet (over wires).
+  - Implementation: Layer 2 is implemented either as hardware or “firmware” - software burned into the network interface cards (NICs).
  - Layer 3 - the `network layer`
    - Functionality: Responsible for connecting millions of LANs into one giant wide-area network which is the Internet. It’s like the postal system, moving messages (called packets) from senders to receivers. And like the postal system, it’s also unreliable: packet delivery is done on a best-effort basis: if there is congestion en-route (an Internet traffic jam), packets get dropped. Protocol: the Internet the network layer uses the Internet Protocol (IP).Implementation:  IP is usually implemented in software as part of the operating system of the connected devices, and also in the infrastructure devices called routers that are the Internet’s postal workers.
 - Layer 4 - the `transport layer`
@@ -132,7 +132,17 @@ Note that a connection at layer 4 is bi-directional: both sides are simultaneous
 - layer 6 (“presentation”) 
 - layer 7 (“application”) But these definitions didn’t catch on.
 - The Internet designers stopped at layer 4, and lumped all the higher layer functions into one big undefined application layer.
- 
+
+`domain name system` - DNS, hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network that convert between names like tau.ac.il to IP addresses like 132.66.11.1
+`local area network` or LAN   
+`End-to-End Encryption` - system of communication where only the communicating users can read the messages, prevents potential eavesdroppers – including telecom providers, Internet providers, and even the provider of the communication service from being able to access the cryptographic keys needed to decrypt the conversation.   
+`firewall` - monitors and controls incoming and outgoing network traffic based on predetermined security rules.   
+
+
+`address-resolution protocol poisoning` - an attacker sends (spoofed) Address Resolution Protocol (ARP) messages onto a local area network with the aim to associate the attacker's MAC address with the IP address of another host, such as the default gateway, causing traffic meant for that IP address to be sent to the attacker instead.   
+`DNS poisoning` - type of attack that exploits vulnerabilities in the domain name system (DNS) to divert Internet traffic away from legitimate servers and towards fake ones.  
+
+
 ---   
 ## Advanced Cryptography
 ---   
