@@ -207,12 +207,12 @@ The Morris Worm: One of the first computer worms distributed via the Internet, a
 ---   
 ## ETC
 
-[Stuxnet](https://en.m.wikipedia.org/wiki/Stuxnet)   
+[Stuxnet](https://en.m.wikipedia.org/wiki/Stuxnet) and [](https://en.wikipedia.org/wiki/Protective_relay)
 [Havex](https://en.m.wikipedia.org/wiki/Havex)   
 [Killnet](https://en.m.wikipedia.org/wiki/Killnet)   
 [Blackenergy](https://en.m.wikipedia.org/wiki/BlackEnergy)   
 [Industroyer](https://en.wikipedia.org/wiki/Industroyer)   
-NotPetya - The Untold Story of NotPetya, the Most Devastating Cyberattack in History [Link](https://www.wired.com/story/notpetya-cyberattack-ukraine-russia-code-crashed-the-world/)   
+[NotPetya](https://en.wikipedia.org/wiki/Petya_and_NotPetya) - The Untold Story of NotPetya, the Most Devastating Cyberattack in History [Link](https://www.wired.com/story/notpetya-cyberattack-ukraine-russia-code-crashed-the-world/)   
 
 From Snowden’s book [Permanent Record](https://www.amazon.com/Permanent-Record-Edward-Snowden/dp/1250237238)   
 - The 5 eyes: U.S., UK, Australia, Canada, New Zealand  
