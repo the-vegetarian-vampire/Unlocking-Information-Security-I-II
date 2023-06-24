@@ -143,19 +143,25 @@ Note that a connection at layer 4 is bi-directional: both sides are simultaneous
 
 `address-resolution protocol poisoning` - an attacker sends (spoofed) Address Resolution Protocol (ARP) messages onto a local area network with the aim to associate the attacker's MAC address with the IP address of another host, such as the default gateway, causing traffic meant for that IP address to be sent to the attacker instead.   
 `DNS poisoning` - type of attack that exploits vulnerabilities in the domain name system (DNS) to divert Internet traffic away from legitimate servers and towards fake ones. 
+   
 `IP address spoofing` - creation of Internet Protocol (IP) packets with a false source IP address, for the purpose of impersonating another computing system.   
 `IP spoofing` - creation of Internet Protocol (IP) packets with a false source IP address, for the purpose of impersonating another computing system.   
 
+`sniffer` - computer software or hardware that can intercept and log traffic passing over a digital network.
+`Man in the Middle attack` - MiTM, attacker secretly relays and alters communications between two parties who believe they are directly communicating with each other.   
 
 ---   
 ## Advanced Cryptography
+
+`Diffie Hellman Key Exchange` - method of securely exchanging cryptographic keys over a public channel.   
+`Rivest–Shamir–Adleman` - RSA, One of the first public-key cryptosystems, widely used for secure data transmission.   
+
+
 ---   
 ## Web Vulnerabilities and Defenses
-
-`MiTM` Man in the Middle attack -    
+ 
 `Traffic sniffing` - https://www.wireshark.org/   
-`Scapy` - https://scapy.net/ - powerful python package for packet manipulation   
-`sniffer` -    
+`Scapy` - https://scapy.net/ - powerful python package for packet manipulation    
 `Ping of death` - outdated blaster worm   
 `smurf attack` -    
 
