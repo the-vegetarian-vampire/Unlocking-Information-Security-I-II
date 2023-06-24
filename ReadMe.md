@@ -33,7 +33,7 @@ Cons
 `zero day attack` - no one knows about the attack; minute is discovered engineers have zero days to fix it     
 `meltdown` - vulnerability on the hardware level, can read memory not authorized to access.      
 `watering hole attack` - an attacker guesses or observes which websites an organization often uses and infects one or more of them with malware. Eventually, some member of the targeted group will become infected. [wiki](https://en.wikipedia.org/wiki/Watering_hole_attack)       
-`machine address code` or `medium access control` (mac) [wiki](https://en.wikipedia.org/wiki/MAC_address) or [wiki2](https://en.wikipedia.org/wiki/Medium_access_control)       
+`machine address code[1]` - `medium access control[2]` - `message authentication code[3]` or (mac) muiltiple meanings depending on context - [wiki1](https://en.wikipedia.org/wiki/MAC_address) or [wiki2](https://en.wikipedia.org/wiki/Medium_access_control) or [wiki3](https://en.wikipedia.org/wiki/Message_authentication_code)     
 
 Vault 7 - [wikileaks](https://en.wikipedia.org/wiki/Vault_7)    
 [Time-of-check to time-of-use](https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use)    
@@ -53,11 +53,11 @@ Cryptanalyis Github via [DominicBreuker](https://github.com/DominicBreuker/crypt
 `XOR Cipher` - boolean operator on two variables that has the value of one if one but not both of the variables has a value of one.     
 `Stream cipher` - a cryptographic key and algorithm are applied to each binary digit in a data stream, one bit at a time.  
   - susceptible to bit-flipping attacks
- 
+    
 `Block cipher`  - a cryptographic key and algorithm are applied to a block of data as a group rather tha one bit at a time.  
 
-Kerckhoff’s principle:   
-`One Time Pad` - encryption technique that cannot be cracked but requires the use of a one-time pre-shared key the same size or longer than the message sent.
+[Kerckhoff’s principle](https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle) - a cryptosystem should be secure, even if everything about the system, except the key, is public knowledge   
+`One Time Pad` - encryption technique that cannot be cracked but requires a one-time pre-shared key the same size or longer than the message sent.
 
 `PGP` - [Pretty Good Privacy](https://en.m.wikipedia.org/wiki/Pretty_Good_Privacy#Digital_signatures)_used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications. Phil Zimmermann developed PGP in 1991.   
 
@@ -103,7 +103,7 @@ According to David Mitnik's [Art of Invisibility](https://www.goodreads.com/book
 `stack overflow` - buffer overflow overwriting a function's return address.
 
 `canary` - values that are placed between a buffer and control data on the stack to monitor buffer overflows.   
-`data execution prevention` - DEP - prevents code on the stack; prevents memory from being executable and writable
+`data execution prevention` - DEP, prevents code on the stack; prevents memory from being executable and writable
 
 `W^X princicple` - memory should be writeable or executable, never both.    
 
