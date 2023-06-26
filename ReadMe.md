@@ -1,5 +1,5 @@
 ## Information Security I: From Cryptography to Buffer Overflows
-The objective of taking this course was to learn more about cryptographic primitives, hash functions, and a lower level introduction to cybersecurity and various exploits.    
+The objective of taking this course was to learn more about cryptographic primitives, hash functions, and a lower level introduction to cybersecurity and exploits.    
 
 - Check https://haveibeenpwned.com/ and test if you've been compromised.     
 - Class [Link](https://www.edx.org/course/unlocking-information-security-i-from-cryptography-to-buffer-overflows) $125/per class (with discount) for access to exercises/quizzes/tests.      
@@ -207,12 +207,17 @@ The Morris Worm: One of the first computer worms distributed via the Internet, a
 ---   
 ## ETC
 
-[Stuxnet](https://en.m.wikipedia.org/wiki/Stuxnet) and [](https://en.wikipedia.org/wiki/Protective_relay)
+[Stuxnet](https://en.m.wikipedia.org/wiki/Stuxnet) 
+ - [Protective Relay](https://en.wikipedia.org/wiki/Protective_relay)   
+ - [DARPA](https://en.wikipedia.org/wiki/DARPA) experiment on [plum island](https://www.wired.com/story/black-start-power-grid-darpa-plum-island/)
+   
 [Havex](https://en.m.wikipedia.org/wiki/Havex)   
 [Killnet](https://en.m.wikipedia.org/wiki/Killnet)   
 [Blackenergy](https://en.m.wikipedia.org/wiki/BlackEnergy)   
 [Industroyer](https://en.wikipedia.org/wiki/Industroyer)   
 [NotPetya](https://en.wikipedia.org/wiki/Petya_and_NotPetya) - The Untold Story of NotPetya, the Most Devastating Cyberattack in History [Link](https://www.wired.com/story/notpetya-cyberattack-ukraine-russia-code-crashed-the-world/)   
+ - [Fancy Bear](https://en.wikipedia.org/wiki/Fancy_Bear)
+ - [Guccifer 2.0](https://en.wikipedia.org/wiki/Guccifer_2.0) 
 
 From Snowden’s book [Permanent Record](https://www.amazon.com/Permanent-Record-Edward-Snowden/dp/1250237238)   
 - The 5 eyes: U.S., UK, Australia, Canada, New Zealand  
