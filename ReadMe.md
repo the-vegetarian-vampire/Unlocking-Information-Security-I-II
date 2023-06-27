@@ -1,6 +1,5 @@
 ## Information Security I: From Cryptography to Buffer Overflows
-October: [CS50 Intro to CyberSecurity](https://cs50.harvard.edu/cybersecurity/2023/zoom/#lecture-2-securing-systems)
- - [Youtube](https://www.youtube.com/watch?v=-CPraeMs-Aw)
+October: [CS50 Intro to CyberSecurity](https://cs50.harvard.edu/cybersecurity/2023/zoom/#lecture-2-securing-systems): [Lecture 2](https://www.youtube.com/watch?v=-CPraeMs-Aw) [Lecture 3](https://www.youtube.com/watch?v=p6trfQZiqC0) [Lecture 4](https://www.youtube.com/watch?v=RidoST83R1Y)
 
 The objective of taking this course was to learn more about cryptographic primitives, hash functions, and a lower level introduction to cybersecurity and exploits.    
 
