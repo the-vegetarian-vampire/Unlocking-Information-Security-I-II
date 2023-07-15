@@ -1,10 +1,10 @@
 ## Information Security I: From Cryptography to Buffer Overflows
-October: [CS50 Intro to CyberSecurity](https://cs50.harvard.edu/cybersecurity/2023/zoom/#lecture-2-securing-systems): [Lecture 2](https://www.youtube.com/watch?v=-CPraeMs-Aw) [Lecture 3](https://www.youtube.com/watch?v=p6trfQZiqC0) [Lecture 4](https://www.youtube.com/watch?v=RidoST83R1Y)
+October: [CS50 Intro to CyberSecurity](https://cs50.harvard.edu/cybersecurity/2023/zoom/#lecture-2-securing-systems)   
 
-The objective of taking this course was to learn more about cryptographic primitives, hash functions, and a lower level introduction to cybersecurity and exploits.    
-
-- Check https://haveibeenpwned.com/ and test if you've been compromised.     
-- Class [Link](https://www.edx.org/course/unlocking-information-security-i-from-cryptography-to-buffer-overflows) $125/per class (with discount) for access to exercises/quizzes/tests.      
+The objective of taking this [course](https://www.edx.org/course/unlocking-information-security-i-from-cryptography-to-buffer-overflows) ($125/per class (with discount) for access to exercises/quizzes/tests) was to learn more about cryptographic primitives, hash functions, and a lower level cybersecurity exploits.    
+ - Check https://haveibeenpwned.com/ and test if you've been compromised.
+ - [Hiroki39 Github](https://github.com/Hiroki39/IsraelX-Unlocking-Information-Security) - for hackxercises   
+ - [AmosYeah](https://github.com/AmosYeah/IsraelX-Unlocking-Information-Security-II--An-Internet-Perspective) - for hackxercises   
 
 Pros:
  - excellent content/mid level overview
@@ -158,6 +158,7 @@ Note that a connection at layer 4 is bi-directional: both sides are simultaneous
 `Diffie Hellman Key Exchange` - method of securely exchanging cryptographic keys over a public channel.   
 `Rivest–Shamir–Adleman` - RSA, One of the first public-key cryptosystems, widely used for secure data transmission.   
 
+`asymmetric encryption` - form of encryption where keys come in pairs. What one key encrypts, only the other can decrypt; asymmetric encryption because the communicating parties, Alice and Bob, have asymmetric roles: one side can only encrypt, while only the other side can decrypt.
 
 ---   
 ## Web Vulnerabilities and Defenses
@@ -177,7 +178,7 @@ Note that a connection at layer 4 is bi-directional: both sides are simultaneous
 `virus` - type of computer program that, when executed, replicates itself by modifying other computer programs and inserting its own code into them.   
 `worm` - standalone malware computer program that replicates itself in order to spread to other computers.    
 
-Backdoor Malware: A malware that negates normal authentication procedures to access a system. As a result, remote access is granted to resources within an application, such as databases and file servers, giving perpetrators the ability to remotely issue system commands and update malware. Core War: A 1984 programming game created by D. G. Jones and A. K. Dewdney in which two or more battle programs (called "warriors") compete for control of a virtual computer. These battle programs are written in an abstract assembly language called Redcode.
+`backdoor malware` - malware that negates normal authentication procedures to access a system. As a result, remote access is granted to resources within an application, such as databases and file servers, giving perpetrators the ability to remotely issue system commands and update malware. Core War: A 1984 programming game created by D. G. Jones and A. K. Dewdney in which two or more battle programs (called "warriors") compete for control of a virtual computer. These battle programs are written in an abstract assembly language called Redcode.
 
 `creeper` - experimental computer program written by Bob Thomas at BBN in 1971. Its original iteration was designed to move between DEC PDP-10 mainframe computers running the TENEX operating system using the ARPANET, with a later version by Ray Tomlinson designed to copy itself between computers rather than simply move.
 
@@ -186,25 +187,23 @@ Backdoor Malware: A malware that negates normal authentication procedures to acc
 `Non-Resident Malware` - variant of computer related malicious software that exists exclusively as a computer memory-based artifact, e.g. in RAM. It does not write any part of its activity to the computer's hard drive.
 `Resident Malware` - variant of computer related malicious software that hides and stores itself on the computer's hard drive.
 
-Polymorphic Code: Code that uses a polymorphic engine to mutate while keeping the original algorithm intact. That is, the code changes itself each time it runs, but the function of the code (its semantics) will not change at all.
+`polymorphic code` - code that uses a polymorphic engine to mutate while keeping the original algorithm intact. That is, the code changes itself each time it runs, but the function of the code (its semantics) will not change at all.
 Quine: A computer program which takes no input and produces a copy of its own source code as its only output.
 Reaper: The first anti-virus software. It was created by Ray Tomlinson to move across the ARPANET and delete the self-replicating Creeper worm.
 
 `resource theft` - theft of processing power.
 
-Rootkit: A collection of computer software, typically malicious, designed to enable access to a computer or an area of its software that is not otherwise allowed (for example, to an unauthorized user) and often masks its existence or the existence of other software.
+`rootkit` - collection of computer software, typically malicious, designed to enable access to a computer or an area of its software that is not otherwise allowed (for example, to an unauthorized user) and often masks its existence or the existence of other software.
 
-Self-Replicating Automata (Universal Constructor): An abstract machine which, when run, would replicate itself. In his design, the machine consists of three parts: a 'blueprint' for itself, a mechanism that can read any blueprint and construct the machine (sans blueprint) specified by that blueprint, and a 'copy machine' that can make copies of any blueprint.
+`Self-Replicating Automata (Universal Constructor)` - abstract machine which, when run, would replicate itself. In his design, the machine consists of three parts: a 'blueprint' for itself, a mechanism that can read any blueprint and construct the machine (sans blueprint) specified by that blueprint, and a 'copy machine' that can make copies of any blueprint.
 
 `static signatures` - signatures that looks at static characteristics of the malware, such as strings, code snippets or their hashes.
 
 `steganography` - method of hiding secret data, by embedding it into an audio, video, image or text file.
 
-The Morris Worm: One of the first computer worms distributed via the Internet, and the first to gain significant mainstream media attention. It also resulted in the first felony conviction in the US under the 1986 Computer Fraud and Abuse Act.
-
+`Morris Worm` - one of the first computer worms distributed via the Internet, and the first to gain significant mainstream media attention. It also resulted in the first felony conviction in the US under the 1986 Computer Fraud and Abuse Act.   
 
 `Advanced Research Projects Agency Network` ARPANET, early packet-switching network and the first network to implement the TCP/IP protocol suite.
-
 
 ---   
 ## ETC
@@ -243,3 +242,5 @@ From Snowden’s book [Permanent Record](https://www.amazon.com/Permanent-Record
 
 Andy Greenberg - [Sandworm](https://www.amazon.com/Sandworm-Cyberwar-Kremlins-Dangerous-Hackers/dp/0385544405) and [Tracers in the Dark](https://www.amazon.com/Tracers-Dark-Global-Crime-Cryptocurrency/dp/0385548095)       
 Nicole Perlroth NYT - [Twitter](https://twitter.com/NicolePerlroth).  
+
+[Keybase](https://keybase.io/) - for end to end encryption 
