@@ -124,9 +124,12 @@ According to David Mitnik's [Art of Invisibility](https://www.goodreads.com/book
 `firewall` - monitors and controls incoming and outgoing network traffic based on predetermined security rules.   
 `packets` - formatted unit of data carried by a packet-switched network; consists of control information and user data, which is known as the payload.   
 `headers` - in a data packet sent via the Internet, the data (payload) are preceded by header information such as sender's and recipient's IP addresses, the protocol governing the format of the payload and several other formats.   
-`VPN` - (Virtual Private Network) -  provides a private pathway (tunnel) for data to travel, keeps data secret (encryption), and hides location.
+`VPN` - (Virtual Private Network) -  provides a private pathway (tunnel) for data to travel, keeps data secret (encryption), and hides location: 
+ - Phase 1 - Establishing the Tunnel: Two VPN endpoints authenticate each other
+ - Phase 2 - Data Transfer    
 
-The 7 Layers Model (OSI (Open Systems Interconnection))
+The 7 Layers Model (OSI (Open Systems Interconnection)): A P S T N D P
+* All People Seem To Need Data Processing   
 - Layer 1 - the `physical layer` 
  - Functionality: in charge of converting bits into signals and vice versa.
  - Implementation: The physical layer is always implemented in hardware.
